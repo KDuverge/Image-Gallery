@@ -44,7 +44,7 @@ img {
 @media screen and (max-width: 700px) {
   .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 200px;
     grid-template-rows: repeat(13, 200px);
   }
   .img1 {
