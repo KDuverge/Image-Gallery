@@ -23,8 +23,6 @@ h1 {
   font-weight: lighter;
 }
 
-
-
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -39,15 +37,15 @@ img {
 }
 
 .img1 {
-  grid-column: span 3;
-  grid-row: span 3;
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 @media screen and (max-width: 700px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 200px);
+    grid-template-rows: repeat(auto,200px);
   }
   .img1 {
     grid-row: span 2;
@@ -59,7 +57,10 @@ img {
   }
 
 }
-
+img {
+  height: 100%;
+  width: 100%;
+}
 img:hover {
   opacity: .5;
 }
