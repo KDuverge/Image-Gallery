@@ -11,6 +11,10 @@ body, html {
   font-family: 'Poppins';
 }
 
+body {
+  height: 100%;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -24,7 +28,7 @@ h1 {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-rows: repeat(5, 200px) ;
   grid-gap: 10px;
   margin: 10px;
 }
