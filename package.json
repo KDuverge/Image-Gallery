@@ -1,0 +1,24 @@
+{
+  "name": "image_grid",
+  "version": "1.0.0",
+  "description": "Image Gallery using CSS Grid",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KDuverge/Image-Gallery.git"
+  },
+  "author": "Kenneth Duverge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KDuverge/Image-Gallery/issues"
+  },
+  "homepage": "https://github.com/KDuverge/Image-Gallery#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  }
+}
