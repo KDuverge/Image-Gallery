@@ -45,7 +45,7 @@ img {
   .container {
     display: grid;
     grid-template-columns: 200px;
-    grid-template-rows: repeat(13, 200px);
+    grid-template-rows: repeat(8, 200px);
   }
   .img1 {
     grid-row: span 2;
