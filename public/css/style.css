@@ -47,12 +47,9 @@ img {
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 1fr;
+    grid-template-rows: auto;
   }
-  .img1 {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
+
   h1 {
     font-size: 12px;
     font-weight: lighter;
